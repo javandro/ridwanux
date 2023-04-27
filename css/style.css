@@ -10954,7 +10954,7 @@ h5,
   font-size: 16px;
   z-index: 1;
   color: rgba(0, 0, 0, 0.3);
-} 
+}
 
 @media (max-width: 1199.98px) {
   .hero h3.vr {
@@ -11437,7 +11437,62 @@ h5,
   background: #ffbd39;
   color: #fff;
 }
-
+ 
+.ftco-hero .img-hero {
+  width: 100%;
+  z-index: 0;
+  position: relative;
+}
+.ftco-hero .img-hero .img {
+  display: block;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+@media (max-width: 767.98px) {
+  .ftco-hero {
+    text-align: center;
+  }
+}
+.ftco-hero .subheading {
+  color: #000000;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #ffbd39;
+}
+.ftco-hero .text {
+  position: relative;
+  z-index: 1;
+}
+@media (min-width: 992px) {
+  .ftco-hero .text {
+    padding-left: 45px;
+    padding-right: 3em;
+  }
+}
+.ftco-hero h1 {
+  font-size: 60px;
+  color: #fff;
+  line-height: 1.2;
+  font-weight: 800;
+}
+.ftco-hero h1 span {
+  font-weight: 800;
+  color: #ffbd39;
+}
+@media (max-width: 991.98px) {
+  .ftco-hero h1 {
+    color: #fff;
+    font-size: 50px;
+  }
+}
+@media (max-width: 767.98px) {
+  .ftco-hero h1 {
+    font-size: 40px;
+  }
+}
 .ftco-about .img-about {
   width: 100%;
   z-index: 0;
@@ -11558,16 +11613,7 @@ h5,
   font-size: 12px;
   margin-bottom: 10px;
   color: #ffbd39;
-}
-.services-1:hover {
-  background: #ffbd39;
-}
-.services-1:hover .icon i {
-  color: #fff;
-}
-.services-1:hover h3 {
-  color: #000000;
-}
+} 
 .services-1:hover h3:after {
   background: #000000;
 }
@@ -12002,7 +12048,7 @@ textarea.form-control {
 }
 .heading-section h2 span {
   font-weight: 400;
-} 
+}
 @media (max-width: 767.98px) {
   .heading-section h2 {
     font-size: 38px;
